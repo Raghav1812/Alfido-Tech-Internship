@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raghavan Vishnukumar | Front End Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Raghavan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="home-section">
+    <div class="container text-center">
+        <h1>Hi, I'm <span>Raghavan Vishnukumar</span></h1>
+        <p>Front End Developer | B.Tech Computer Science & Business Systems</p>
+        <a href="#projects" class="btn btn-red">View Projects</a>
+        <a href="https://www.linkedin.com/in/raghavanvishukumar-7ab2aa332" target="_blank" class="btn btn-outline-light ms-2">LinkedIn</a>
+    </div>
+</section>
+
+<section id="skills" class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-3 col-6"><div class="skill-box">HTML5</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">CSS3</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">JavaScript</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">Bootstrap</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">Responsive Design</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">UI/UX Design</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">Git & GitHub</div></div>
+            <div class="col-md-3 col-6"><div class="skill-box">Figma Basics</div></div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section-padding bg-dark">
+    <div class="container">
+        <h2 class="section-title text-white">Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>Personal Portfolio Website</h5>
+                    <p>Fully responsive portfolio using HTML, CSS & Bootstrap.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>College Event Landing Page</h5>
+                    <p>Promotional site with smooth scrolling and modern UI.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>Restaurant Website</h5>
+                    <p>Menu, contact and reservation UI design.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>Startup Product Page</h5>
+                    <p>Conversion-focused layout with CTA sections.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>Student Management UI</h5>
+                    <p>Dashboard UI using Bootstrap grid system.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="project-card">
+                    <h5>Marketing Campaign Page</h5>
+                    <p>Real-time campaign promotion webpage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section-padding">
+    <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-red w-100">Send Message</button>
+                </form>
+                <div class="contact-info text-center mt-4">
+                    <p>Email: raghavvishnu2006@gmail.com</p>
+                    <p>Phone: 124567890</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <p>© 2026 Raghavan Vishnukumar | Front End Developer</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
